@@ -1,6 +1,7 @@
 import { Button, Card, HStack, Image, Text } from "@chakra-ui/react";
 import { Wrap, WrapItem } from "@chakra-ui/react";
 import parseCSV from "../services/Project_Parser";
+import spotify_rex from "../assets/spotify_rex.svg";
 
 function ProjectCard() {
   let projects = parseCSV();
@@ -33,7 +34,7 @@ function ProjectCard() {
             ))}
           </Wrap>
 
-          <Image src={project.picture} alt={project.title} />
+          <Image src={spotify_rex} alt={project.title} />
         </Card>
       ))}
     </>
