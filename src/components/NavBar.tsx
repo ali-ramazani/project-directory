@@ -1,5 +1,6 @@
 import { HStack, Text } from "@chakra-ui/react";
 import ColorModeSwitch from "./ColorModeSwitch";
+import Search from "./Search";
 
 function NavBar() {
   return (
@@ -7,6 +8,7 @@ function NavBar() {
       <Text as="b" fontSize="4xl">
         Project Directory
       </Text>
+      <Search />
       <ColorModeSwitch />
     </HStack>
   );

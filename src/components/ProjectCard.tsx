@@ -33,10 +33,7 @@ function ProjectCard() {
             ))}
           </Wrap>
 
-          <Image
-            src="https://storage.googleapis.com/pr-newsroom-wp/1/2023/03/New-Home-Feed_FTR-Header.png"
-            alt={project.title}
-          />
+          <Image src={project.picture} alt={project.title} />
         </Card>
       ))}
     </>
