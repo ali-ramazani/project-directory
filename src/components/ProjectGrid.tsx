@@ -9,7 +9,7 @@ function ProjectGrid() {
   console.log("grid", projects);
 
   return (
-    <Container maxW="1600px">
+    <Container maxW="1400px">
       <SimpleGrid
         columns={{ sm: 1, md: 2, lg: 2, xl: 2 }}
         spacing={10}
