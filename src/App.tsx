@@ -1,5 +1,5 @@
 import "./App.css";
-import { Center, Grid, GridItem, Show } from "@chakra-ui/react";
+import { Grid, GridItem } from "@chakra-ui/react";
 import NavBar from "./components/NavBar";
 import ProjectGrid from "./components/ProjectGrid";
 

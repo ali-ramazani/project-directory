@@ -1,7 +1,6 @@
 import { SimpleGrid } from "@chakra-ui/react";
 import ProjectCard from "./ProjectCard";
 import { Container } from "@chakra-ui/react";
-import { useState } from "react";
 import parseCSV from "../services/Project_Parser";
 
 function ProjectGrid() {
